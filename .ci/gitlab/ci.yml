@@ -22,6 +22,7 @@ stages:
         - /^staging/.*$/i
     variables:
         PYPI_MIRROR_TAG: 3a8ecd569090d603bb9ea2d54f38f9c102b443fe
+        PYMOR_HYPOTHESIS_PROFILE: ci
 
 .pytest:
     extends: .test_base
